@@ -46,6 +46,6 @@ pl.ylabel('Actual')
 pl.show()
 
 # Example: Make predictions for a new data point
-new_data_point = [[151, 5.1, 3.5, 1.4, 0.2]]
+new_data_point = [[151, 4.8, 3.2, 1.1, 0.2]]
 new_prediction = model.predict(new_data_point)
 print(f"Prediction for new data point {new_data_point}: {new_prediction[0]}")
